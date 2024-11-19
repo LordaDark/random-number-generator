@@ -1,0 +1,129 @@
+.random-number-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.random-number-container h1 {
+    color: #333;
+}
+
+.random-number-container label {
+    display: block;
+    margin: 10px 0;
+}
+
+.random-number-container input {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.random-number-container button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.random-number-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.random-number-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #444;
+}
+
+.secret-menu {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.secret-menu h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.custom-sequence-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.custom-sequence-item input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.custom-sequence-item button {
+    margin: 0 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.random-number-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative; /* Per posizionare la cronologia */
+    width: 900px;
+    height: 500px;
+}
+
+.main-content {
+    width: 70%;
+}
+
+.history {
+    position: absolute;
+    top: 20px; /* Allineamento verticale */
+    right: 20px; /* Spazio dal bordo destro */
+    width: 20%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.history li {
+    background-color: #e7f3e7;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
